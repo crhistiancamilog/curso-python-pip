@@ -13,7 +13,8 @@ python main.py
 ```sh
 git clone
 cd app
-source env/bin/activate #a mi no me funciono -buscar como hacelo en windows
+python3 -m venv env # verificar en tu equipo a mi me funciono con python en lugar de python3
+source env/bin/activate #a mi no me funciono -buscar como hacerlo en windows
 pip3 install -t requirements.txt
 python3 main.py
 ```
